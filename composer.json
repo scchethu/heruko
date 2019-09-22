@@ -36,7 +36,8 @@
         "santigarcor/laratrust": "4.0.*",
         "simshaun/recurr": "3.0.*",
         "sofa/eloquence": "5.4.*",
-        "tucker-eric/eloquentfilter": "1.1.*"
+        "tucker-eric/eloquentfilter": "1.1.*",
+        "nesbot/carbon": "1.20"
     },
     "require-dev": {
         "fzaninotto/faker": "1.8.*",
