@@ -193,7 +193,7 @@ class AdminMenu
             }
 
             // Apps
-            if ($user->can('read-modules-home')) {
+            if ($user->can(['read-modules-home','only-app'])) {
                 $menu->add([
                     'url' => 'apps/home',
                     'title' => trans_choice('general.modules', 2),
